@@ -387,6 +387,27 @@ This specification is open. If you implement `.pinch` in another language or fin
 
 MIT License. You are free to implement, use, and distribute this format in any project, commercial or otherwise, with attribution.
 
+## Disclaimer
+
+This specification describes a structural compression format for reducing token overhead when submitting files to Large Language Model platforms.
+
+The `.pinch` format is designed to remove formatting overhead only — repeated headers, XML namespaces, and unnecessary whitespace. It is not intended to summarize, interpret, or alter the semantic content of files.
+
+**This specification is provided "as is" without warranties of any kind.** Implementations based on this specification are the sole responsibility of their authors. The TokenPinch project and its contributors are not liable for:
+
+- Errors or omissions in AI outputs resulting from use of this format
+- Data loss or corruption resulting from incorrect implementations
+- Use of this format with sensitive, regulated, or legally critical data
+
+**Do not use this format to process** credit card numbers, passwords, medical records, confidential legal documents, or any regulated data without appropriate safeguards.
+
+Always verify AI outputs before using them in any critical decision.
+
+---
+
+MIT License — see [LICENSE](LICENSE) for details.  
+For questions: [hello@tokenpinch.com](mailto:hello@tokenpinch.com)
+
 ---
 
 *TokenPinch — compress files for AI, save tokens, save money.*  
